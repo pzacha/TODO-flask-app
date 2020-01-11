@@ -6,6 +6,7 @@ Simple TODO flask application.
 
 ## Screenshots
 Home page:
+
 ![home](/img/pic.PNG)
 
 ## Technologies
