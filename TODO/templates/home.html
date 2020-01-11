@@ -21,7 +21,7 @@
     <h2>Tasks to do:</h2>
     <ul>
         {% for item in todo_list %}
-        <li>{{ item.text }}<a href="{{ url_for('done', id=item.id) }}">Done</a></li>
+        <li>{{ item.text }} <a href="{{ url_for('done', id=item.id) }}"> Done</a></li>
         {% endfor %}
     </ul>
 
