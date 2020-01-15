@@ -21,14 +21,15 @@
     <h2>Tasks to do:</h2>
     <ul>
         {% for item in todo_list %}
-        <li>{{ item.text }} <a href="{{ url_for('done', id=item.id) }}"> Done</a></li>
+        <li>{{ item.text }} <a href="{{ url_for('done', id=item.id) }}"> Done</a>
+            <a href="{{ url_for('delete', id=item.id) }}"> Delete</a></li>
         {% endfor %}
     </ul>
 
     <h2>Finished tasks:</h2>
     <ul>
         {% for item in done_list %}
-        <li>{{ item.text }}</li>
+        <li>{{ item.text }} <a href="{{ url_for('delete', id=item.id) }}"> Delete</a></li>
         {% endfor %}
     </ul>
 
