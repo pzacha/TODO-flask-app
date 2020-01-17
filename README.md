@@ -2,7 +2,11 @@
 > Blog
 
 ## General info
-Simple TODO flask application.
+Simple TODO flask application. It includes:
+* Adding new elements
+* Deleting elements
+* Marking tasks as done
+* Storing list in a database
 
 ## Screenshots
 Home page:
@@ -15,5 +19,5 @@ Home page:
 	* SQLAlchemy
 
 ## Status
-Project is: _done_
+Project is: _finished_
 
