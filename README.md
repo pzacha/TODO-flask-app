@@ -1,5 +1,5 @@
-# Project Name
-> Blog
+# TODO app
+> TODO app created with Flask.
 
 ## General info
 Simple TODO flask application. It includes:
